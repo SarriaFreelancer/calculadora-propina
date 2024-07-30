@@ -1,0 +1,89 @@
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background: #000;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    
+   
+}
+
+.title {
+    border-bottom: 5px solid #fff;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form, .bloque {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    text-align: center;
+}
+
+input {
+    height: 26px;
+    border-radius: 5px;
+}
+
+button {
+    width: auto;
+    height: 35px;
+    border-radius: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    
+}
+
+
+.card {
+    width: 80%;
+    border: 1px solid #ddd;
+    border-radius: 30px;
+    padding: 16px;
+    margin: 16px;
+    box-shadow: 0 2px 4px rgba(0,0,0,1);
+    background-color: #ddd;
+    color: #000;
+    align-items: center;
+
+}
+
+.card-title {
+    text-align: left;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    
+}
